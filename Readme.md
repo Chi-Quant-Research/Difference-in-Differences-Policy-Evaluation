@@ -103,25 +103,11 @@ The policy increases the outcome variable by approximately two units for the tre
 
 # Output
 
-The script produces the following outputs:
+The analysis produces the following visualization showing the difference-in-differences estimate:
 
-Dataset
+![Difference-in-Differences Policy Effect](Difference-In-Differences-Policy-Effect.png)
 
-```
-data/panel_dataset.csv
-```
-
-Regression results
-
-```
-results/did_regression.txt
-```
-
-Visualization
-
-```
-results/policy_effect_plot.png
-```
+*Figure 1: Comparison of parallel trends between the treatment and control groups.*
 
 ---
 
@@ -196,3 +182,4 @@ Python libraries:
 # Disclaimer
 
 This project is intended for educational and research purposes only.
+
